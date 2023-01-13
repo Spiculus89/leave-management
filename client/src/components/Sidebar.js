@@ -62,6 +62,10 @@ const Sidebar = ({ setMyLeaves }) => {
           ) : null}
         </li>
       )}
+      <div className=" text-white fixed bottom-2 text-sm flex flex-col items-center">
+        <p>Copyright 2022 Walter Code.</p>
+        <p>All rights reserved</p>
+      </div>
     </div>
   );
 };
